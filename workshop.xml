@@ -1,0 +1,7 @@
+<Mod
+    name="Trigger Discipline"
+    description="A semi-automatic utility spell"
+    tags="spells"
+    dont_upload_folders="dev"
+>
+</Mod>
