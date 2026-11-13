@@ -6,9 +6,9 @@ table.insert(actions, {
         sprite = "mods/semi_auto_wands/trigger_discipline.png",
         sprite_unidentified = "data/ui_gfx/gun_actions/spread_reduce_unidentified.png",
         type = ACTION_TYPE_UTILITY,
-        spawn_level = "0,1,2,3,4,5,6",
-        spawn_probability = "1,1,1,1,1,1,1",
-        price = 100,
+        spawn_level = "1,2,3,4",
+        spawn_probability = "0.7,0.8,0.6,0.5",
+        price = 120,
         mana = 5,
         action = function()
                 c.fire_rate_wait = c.fire_rate_wait - 8
